@@ -1,0 +1,15 @@
+git add MyFile.txt
+git commit -m "initial commit. myfile.txt created"
+
+git add Info/
+git commit -m "added info folder and infofile1 and infofile2"
+
+git config --global user.name kkemppai_INFO
+
+git add Command.txt
+
+git status
+I learned that GitBash will display the modified files
+below the staged files that haved been committed
+even if a commited file is modified, it will be displayed
+as staged and also a version bels as modified
